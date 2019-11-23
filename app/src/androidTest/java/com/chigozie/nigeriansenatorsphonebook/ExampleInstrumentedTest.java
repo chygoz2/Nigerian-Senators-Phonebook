@@ -1,4 +1,4 @@
-package com.gloopro.nigeriansenatorsphonebook;
+package com.chigozie.nigeriansenatorsphonebook;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

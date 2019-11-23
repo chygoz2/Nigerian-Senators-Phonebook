@@ -1,4 +1,4 @@
-package com.gloopro.nigeriansenatorsphonebook;
+package com.chigozie.nigeriansenatorsphonebook;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -18,7 +18,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
 
-import com.gloopro.nigeriansenatorsphonebook.database.DBHelper;
+import com.chigozie.nigeriansenatorsphonebook.database.DBHelper;
 
 public class MainActivity extends AppCompatActivity implements ActionInterface {
 

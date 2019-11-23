@@ -1,4 +1,4 @@
-package com.gloopro.nigeriansenatorsphonebook;
+package com.chigozie.nigeriansenatorsphonebook;
 
 public interface ActionInterface {
     public void onPhoneCallClickListener(String phone);

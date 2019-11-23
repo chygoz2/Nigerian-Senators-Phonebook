@@ -1,4 +1,4 @@
-package com.gloopro.nigeriansenatorsphonebook.database;
+package com.chigozie.nigeriansenatorsphonebook.database;
 
 import android.content.ContentValues;
 import android.content.Context;

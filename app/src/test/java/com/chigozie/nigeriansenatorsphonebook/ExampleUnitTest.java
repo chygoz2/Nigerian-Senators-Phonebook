@@ -1,4 +1,4 @@
-package com.gloopro.nigeriansenatorsphonebook;
+package com.chigozie.nigeriansenatorsphonebook;
 
 import org.junit.Test;
 
