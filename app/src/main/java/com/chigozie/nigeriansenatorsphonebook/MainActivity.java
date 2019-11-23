@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
@@ -40,10 +41,9 @@ public class MainActivity extends AppCompatActivity implements ActionInterface {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        mAdapter = new MyCustomRecyclerViewAdapter(getSenatorsListCursor(), getApplicationContext(), this);
-        recyclerView.setAdapter(mAdapter);
-
         recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
+
+        (new FetchSenatorsTask()).execute();
 
         search = findViewById(R.id.search);
 
@@ -53,8 +53,7 @@ public class MainActivity extends AppCompatActivity implements ActionInterface {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                Cursor cursor = getSearchCursor(s.toString());
-                ((MyCustomRecyclerViewAdapter)mAdapter).swapCursor(cursor);
+                (new SearchSenatorsTask(s.toString())).execute();
             }
 
             @Override
@@ -62,19 +61,9 @@ public class MainActivity extends AppCompatActivity implements ActionInterface {
         });
     }
 
-    private Cursor getSenatorsListCursor () {
-        DBHelper dbHelper = new DBHelper(getApplicationContext());
-        Cursor cursor = dbHelper.getAllSenators(dbHelper.getReadableDatabase());
-        return cursor;
-    }
-
-    public Cursor getSearchCursor (String searchTerm) {
-        DBHelper dbHelper = new DBHelper(getApplicationContext());
-        Cursor cursor = dbHelper.search(dbHelper.getReadableDatabase(), searchTerm);
-        return cursor;
-    }
 
     public void onPhoneCallClickListener(String phone) {
+        this.phoneNumber = phone;
         callPhoneNumber(phone);
     }
 
@@ -138,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements ActionInterface {
         {
             if(grantResults[0] == PackageManager.PERMISSION_GRANTED)
             {
-                callPhoneNumber(null);
+                callPhoneNumber(this.phoneNumber);
             }
             else
             {
@@ -152,6 +141,42 @@ public class MainActivity extends AppCompatActivity implements ActionInterface {
                 });
                 builder.show();
             }
+        }
+    }
+
+    private class FetchSenatorsTask extends AsyncTask<Void, Void, Cursor> {
+        @Override
+        protected Cursor doInBackground(Void... voids) {
+            DBHelper dbHelper = new DBHelper(getApplicationContext());
+            Cursor cursor = dbHelper.getAllSenators(dbHelper.getReadableDatabase());
+            return cursor;
+        }
+
+        @Override
+        protected void onPostExecute(Cursor cursor) {
+            mAdapter = new MyCustomRecyclerViewAdapter(cursor, MainActivity.this);
+            recyclerView.setAdapter(mAdapter);
+        }
+    }
+
+    private class SearchSenatorsTask extends AsyncTask<Void, Void, Cursor> {
+        private String searchText;
+
+        public SearchSenatorsTask (String searchText) {
+            this.searchText = searchText;
+        }
+
+        @Override
+        protected Cursor doInBackground(Void... voids) {
+            DBHelper dbHelper = new DBHelper(getApplicationContext());
+            Cursor cursor = dbHelper.search(dbHelper.getReadableDatabase(), searchText);
+            return cursor;
+        }
+
+        @Override
+        protected void onPostExecute(Cursor cursor) {
+            mAdapter = new MyCustomRecyclerViewAdapter(cursor, MainActivity.this);
+            recyclerView.setAdapter(mAdapter);
         }
     }
 }

@@ -1,6 +1,5 @@
 package com.chigozie.nigeriansenatorsphonebook;
 
-import android.content.Context;
 import android.database.Cursor;
 import android.database.DataSetObserver;
 import android.support.v7.widget.RecyclerView;
@@ -13,7 +12,6 @@ import android.widget.TextView;
 public class MyCustomRecyclerViewAdapter extends RecyclerView.Adapter<MyCustomRecyclerViewAdapter.MyViewHolder> {
     private Cursor cursor;
     private DataSetObserver dataSetObserver;
-    private Context context;
     private ActionInterface actionInterface;
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
@@ -25,10 +23,9 @@ public class MyCustomRecyclerViewAdapter extends RecyclerView.Adapter<MyCustomRe
         }
     }
 
-    public MyCustomRecyclerViewAdapter(Cursor cursor, Context context, ActionInterface actionInterface) {
+    public MyCustomRecyclerViewAdapter(Cursor cursor, ActionInterface actionInterface) {
         this.cursor = cursor;
         dataSetObserver = new NotifyingDataSetObserver();
-        this.context = context;
         this.actionInterface = actionInterface;
         if (cursor != null) {
             cursor.registerDataSetObserver(dataSetObserver);

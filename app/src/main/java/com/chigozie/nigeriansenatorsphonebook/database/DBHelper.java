@@ -18,7 +18,6 @@ public class DBHelper extends SQLiteOpenHelper {
 
     public static final String NAME = "KNOWYOURSENATOR";
     public static final int VERSION = 2;
-//    public static final String STATES = "states";
     public static final String SENATORS = "senators";
     private Context context;
 
@@ -39,17 +38,10 @@ public class DBHelper extends SQLiteOpenHelper {
 
     public void updateMyDatabase (SQLiteDatabase db, int oldVersion, int newVersion) {
         if (oldVersion < 1) {
-//            createStatesTable(db);
             createSenatorsTable(db);
         }
         populateSenatorsTable(db);
     }
-//
-//    private void createStatesTable(SQLiteDatabase db) {
-//        String sql = "create table " + STATES + " (_id integer primary key autoincrement, " +
-//                "name varchar(100) not null);";
-//        db.execSQL(sql);
-//    }
 
     private void createSenatorsTable(SQLiteDatabase db) {
         String sql = "create table " + SENATORS + " (_id integer primary key autoincrement, " +
