@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MyCustomRecyclerViewAdapter extends RecyclerView.Adapter<MyCustomRecyclerViewAdapter.MyViewHolder> {
     private Cursor cursor;
@@ -45,7 +46,7 @@ public class MyCustomRecyclerViewAdapter extends RecyclerView.Adapter<MyCustomRe
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        View view = holder.view;
+        final View view = holder.view;
         cursor.moveToPosition(position);
         TextView name = view.findViewById(R.id.name);
         TextView email = view.findViewById(R.id.email);
@@ -64,16 +65,18 @@ public class MyCustomRecyclerViewAdapter extends RecyclerView.Adapter<MyCustomRe
         ImageView callIcon = view.findViewById(R.id.callIcon);
         ImageView textIcon = view.findViewById(R.id.textIcon);
 
-        if (phoneNumber.equals("N/A")) {
-            callIcon.setVisibility(View.INVISIBLE);
-            textIcon.setVisibility(View.INVISIBLE);
-        }
+//        if (phoneNumber.equals("N/A")) {
+//            callIcon.setVisibility(View.GONE);
+//            textIcon.setVisibility(View.GONE);
+//        }
 
         callIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (!phoneNumber.equals("N/A")) {
                     actionInterface.onPhoneCallClickListener(phoneNumber);
+                } else {
+                    Toast.makeText(view.getContext(), "Phone number not available", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -88,7 +91,11 @@ public class MyCustomRecyclerViewAdapter extends RecyclerView.Adapter<MyCustomRe
         textIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                actionInterface.onSmsClickListener(phoneNumber, nameText);
+                if (phoneNumber.equals("N/A")) {
+                    Toast.makeText(view.getContext(), "Phone number not available", Toast.LENGTH_SHORT).show();
+                } else {
+                    actionInterface.onSmsClickListener(phoneNumber, nameText);
+                }
             }
         });
 //        phone.setCompoundDrawablesWithIntrinsicBounds(R.drawable.icons8_android_24, 0, 0, 0);
