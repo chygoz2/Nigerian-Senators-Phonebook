@@ -63,9 +63,14 @@ public class MyCustomRecyclerViewAdapter extends RecyclerView.Adapter<MyCustomRe
         phone.setText(phoneNumber);
         state.setText(cursor.getString(4));
 
-        ImageView callIcon = view.findViewById(R.id.callIcon);
         ImageView emailIcon = view.findViewById(R.id.emailIcon);
+        ImageView callIcon = view.findViewById(R.id.callIcon);
         ImageView textIcon = view.findViewById(R.id.textIcon);
+
+        if (phoneNumber.equals("N/A")) {
+            callIcon.setVisibility(View.INVISIBLE);
+            textIcon.setVisibility(View.INVISIBLE);
+        }
 
         callIcon.setOnClickListener(new View.OnClickListener() {
             @Override
