@@ -17,7 +17,7 @@ import java.io.InputStream;
 public class DBHelper extends SQLiteOpenHelper {
 
     public static final String NAME = "KNOWYOURSENATOR";
-    public static final int VERSION = 2;
+    public static final int VERSION = 3;
     public static final String SENATORS = "senators";
     private Context context;
 
@@ -37,18 +37,23 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
     public void updateMyDatabase (SQLiteDatabase db, int oldVersion, int newVersion) {
-        if (oldVersion < 1) {
+        if (oldVersion < 3) {
             createSenatorsTable(db);
         }
         populateSenatorsTable(db);
     }
 
     private void createSenatorsTable(SQLiteDatabase db) {
-        String sql = "create table " + SENATORS + " (_id integer primary key autoincrement, " +
+        String sql = "drop table if exists " + SENATORS + ";";
+        db.execSQL(sql);
+
+        sql = "create table " + SENATORS + " (_id integer primary key autoincrement, " +
                 "name varchar(100) not null, " +
+                "full_name varchar(100) not null, " +
                 "email varchar(100) default null, " +
                 "phone_number varchar(30) default null, " +
-                "state varchar(100) not null);";
+                "state varchar(100) not null," +
+                "district varchar(100) default null);";
         db.execSQL(sql);
     }
 
@@ -89,6 +94,8 @@ public class DBHelper extends SQLiteOpenHelper {
             cv.put("phone_number", senatorObject.getString("phone_number"));
             cv.put("email", senatorObject.getString("email"));
             cv.put("state", senatorObject.getString("state"));
+            cv.put("full_name", senatorObject.getString("full_name"));
+            cv.put("district", senatorObject.getString("district"));
             db.insert(SENATORS, null, cv);
         } catch (JSONException e) {
             e.printStackTrace();
@@ -127,9 +134,11 @@ public class DBHelper extends SQLiteOpenHelper {
                 "or name like ? " +
                 "or email like ? " +
                 "or phone_number like ? " +
+                "or full_name like ? " +
+                "or district like ? " +
                 "order by name asc";
         searchTerm = "%"+searchTerm.trim()+"%";
-        Cursor cursor = db.rawQuery(sql, new String[]{ searchTerm, searchTerm, searchTerm, searchTerm});
+        Cursor cursor = db.rawQuery(sql, new String[]{ searchTerm, searchTerm, searchTerm, searchTerm, searchTerm, searchTerm});
         return cursor;
     }
 }

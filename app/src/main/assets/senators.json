@@ -1,560 +1,873 @@
 [
   {
     "name": "Sen. E. Abaribe",
+    "full_name": "Abaribe Enyinnaya Harcourt",
     "phone_number": "+2348033129452",
     "email": "enyiabaribe@yahoo.com",
+    "district": "Abia South",
     "state": "Abia"
   },
   {
     "name": "Sen. O. Kalu",
+    "full_name": "Orji Uzor Kalu",
     "phone_number": "+2348034000001",
     "email": "okalu@orjikalu.com",
+    "district": "Abia North",
     "state": "Abia"
   },
   {
     "name": "Sen. T. Orji",
+    "full_name": "Theodore Ahamefule Orji",
     "phone_number": "+2347082800000",
     "email": "senatortaorji@gmail.com",
+    "district": "Abia Central",
     "state": "Abia"
   },
   {
     "name": "Sen. B. Yaroe",
+    "full_name": "Binos Dauda Yaroe",
     "phone_number": "+2348034050460",
     "email": "bdyaroe@gmail.com",
+    "district": "Adamawa South",
     "state": "Adamawa"
   },
   {
     "name": "Sen. I. Abbo",
+    "full_name": "Ishaku Elisha cliff Abbo",
     "phone_number": "+2348066285112",
     "email": "faradugun@gmail.com",
+    "district": "Adamawa North",
     "state": "Adamawa"
   },
   {
     "name": "Sen. A. Ahmed",
+    "full_name": "Aishatu Dahiru Ahmed",
     "email": "aishatu.ahmed@nass.gov.ng",
+    "district": "Adamawa Central",
     "state": "Adamawa",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. B. Akpan",
+    "full_name": "Bassey Albert Akpan",
     "phone_number": "+2348055555188",
     "email": "akpanalbert@hotmail.com",
+    "district": "Akwa Ibom North East",
     "state": "Akwa Ibom"
   },
   {
     "name": "Sen. A. Eyakenyi",
+    "full_name": "Akon Eyakanyi",
     "phone_number": "+2348035054282",
     "email": "konssie@yahoo.com",
+    "district": "Akwa Ibom South",
     "state": "Akwa Ibom"
   },
   {
     "name": "Sen. C. Ekpeyong",
+    "full_name": "Chris Ekpenyong",
     "phone_number": "+2348027785234",
     "email": "chrisekpesg@yahoo.com",
+    "district": "Akwa Ibom North West",
     "state": "Akwa Ibom"
   },
   {
     "name": "Sen. I. Ubah",
+    "full_name": "Ifeanyi Uba",
     "phone_number": "+2349096655596",
     "email": "senatorifeanyiubah@gmail.com",
+    "district": "Anambra South",
     "state": "Anambra"
   },
   {
     "name": "Sen. E. Uche",
+    "full_name": "Uche Lilian Ekwunife",
     "phone_number": "+2348037620002",
     "email": "u.ekwunife@yahoo.com",
+    "district": "Anambra Central",
     "state": "Anambra"
   },
   {
     "name": "Sen. A. Oduah",
+    "full_name": "Stella Adaeze Oduah",
     "phone_number": "+2348055084340",
     "email": "senatorstella@gmail.com",
+    "district": "Anambra North",
     "state": "Anambra"
   },
   {
     "name": "Sen. H. Jika",
+    "full_name": "Halliru Dauda Jika",
     "phone_number": "+2348038666690",
     "email": "jikahalliru@gmail.com",
+    "district": "Bauchi Central",
     "state": "Bauchi"
   },
   {
     "name": "Sen. A. Bulkachuwa",
+    "full_name": "Adamu Mohammed Bulkachuwa",
     "email": "adamu.bulkachuwa@nass.gov.ng",
+    "district": "Bauchi North",
     "state": "Bauchi",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. L. Gamau",
+    "full_name": "Lawal Yahaya Gumau",
     "email": "lawal.gumau@nass.gov.ng",
+    "district": "Bauchi South",
     "state": "Bauchi",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. O. Ewhrudjakpo",
+    "full_name": "Lawrence Ewhrudjakpor",
     "phone_number": "+2349031352791",
     "email": "ogagadick@gmail.com",
+    "district": "Bayelsa West",
     "state": "Bayelsa"
   },
   {
     "name": "Sen. D. Diri",
+    "full_name": "Douye Diri",
     "phone_number": "+2348036668698",
     "email": "douyediri@gmail.com",
+    "district": "Bayelsa Central",
     "state": "Bayelsa"
   },
   {
-    "name": "Sen. D. Wangagra",
-    "email": "degi.wangagha@nass.gov.ng",
-    "state": "Bayelsa",
-    "phone_number": "N/A"
+    "name": "Sen. D. Biobarakuma",
+    "full_name": "Biobarakuma Degi-Eremienyo",
+    "phone_number": "+2348033104612",
+    "email": "bwdegi@yahoo.com",
+    "district": "Bayelsa East",
+    "state": "Bayelsa"
   },
   {
     "name": "Sen. E. Orker-Jev",
+    "full_name": "Emmanuel Orker-Jev",
     "email": "emmanuel.orkerjev@nass.gov.ng",
+    "district": "Benue North West",
     "state": "Benue",
     "phone_number": "N/A"
   },
   {
+    "name": "Sen. S. Gabriel",
+    "full_name": "Gabriel Suswam",
+    "phone_number": "+2348188821440",
+    "email": "Gabtorsuawam1@yahoo.com",
+    "district": "Benue North East",
+    "state": "Benue"
+  },
+  {
     "name": "Sen A. Morro",
+    "full_name": "Abba Moro",
     "phone_number": "+2348068870606",
     "email": "abahmoro@yahoo.com",
+    "district": "Benue South",
     "state": "Benue"
   },
   {
     "name": "Sen. A. Kyari",
+    "full_name": "Abubakar Kyari",
+    "phone_number": "+2348022907124",
     "email": "abubakar.kyari@nass.gov.ng",
-    "state": "Borno",
-    "phone_number": "N/A"
+    "district": "Borno North",
+    "state": "Borno"
   },
   {
     "name": "Sen. K. Shettima",
+    "full_name": "Kashim Shettima",
     "phone_number": "+2348034459047",
     "email": "kashimshettima@gmail.com",
+    "district": "Borno Central",
     "state": "Borno"
   },
   {
     "name": "Sen. M. Ndume",
+    "full_name": "Mohammed Ali Ndume",
     "phone_number": "+2348109480004",
     "email": "mohammed.ndume@nass.gov.ng",
+    "district": "Borno South",
     "state": "Borno"
   },
   {
     "name": "Sen. R. Oko",
+    "full_name": "Rose Okoji Oko",
+    "phone_number": "+2348033328026",
     "email": "rose.oko@nass.gov.ng",
-    "state": "Cross River",
-    "phone_number": "N/A"
+    "district": "Cross River North",
+    "state": "Cross River"
   },
   {
     "name": "Sen. G. Bassey",
+    "full_name": "Gershom Bassey",
     "phone_number": "+2348034444555",
     "email": "gershombassey@gmail.com",
+    "district": "Cross River South",
     "state": "Cross River"
   },
   {
     "name": "Sen. S. Onor",
+    "full_name": "Sandy Onor",
     "phone_number": "+2348030998460",
     "email": "irunandu@yahoo.com",
+    "district": "Cross River Central",
     "state": "Cross River"
   },
   {
     "name": "Sen. O. Omo-Agege",
+    "full_name": "Ovie Omo-Agege",
     "phone_number": "+2347033399937",
     "email": "senator.ovieomoagege@gmail.com",
+    "district": "Delta Central",
     "state": "Delta"
   },
   {
     "name": "Sen. J. Manager",
+    "full_name": "James Manager",
     "phone_number": "+2348143103829",
     "email": "jamesmanager2013@gmail.com",
+    "district": "Delta South",
     "state": "Delta"
   },
   {
     "name": "Sen. P. Nwaoboshi",
+    "full_name": "Peter Nwaoboshi",
     "phone_number": "+2348037200999",
     "email": "pnwaoboshi@yahoo.com",
+    "district": "Delta North",
     "state": "Delta"
   },
   {
+    "name": "Sen. M. Nnachi",
+    "full_name": "Michael Ama Nnachi",
+    "phone_number": "+2348034528595",
+    "email": "michaelamannachi@gmail.com",
+    "district": "Ebonyi South",
+    "state": "Ebonyi"
+  },
+  {
+    "name": "Sen. J. Ogba",
+    "full_name": "Obinna Joseph Ogba",
+    "phone_number": "+2348037791346",
+    "email": "onwaigboasa@yahoo.com",
+    "district": "Ebonyi Central",
+    "state": "Ebonyi"
+  },
+  {
+    "name": "Sen. S. Egwu",
+    "full_name": "Sam Egwu",
+    "phone_number": "+2348039665848",
+    "email": "drsamominyiegwu@gmail.com",
+    "district": "Ebonyi North",
+    "state": "Ebonyi"
+  },
+  {
     "name": "Sen. C. Ordia",
+    "full_name": "Clifford Ordia",
     "phone_number": "+2348038403877",
     "email": "engineercliffordordia@gmail.com",
+    "district": "Edo Central",
     "state": "Edo"
   },
   {
     "name": "Sen. F. Alimikhena",
+    "full_name": "Francis Alimikkhena",
     "phone_number": "+2348155555884",
     "email": "falimikhena@yahoo.com",
+    "district": "Edo North",
     "state": "Edo"
   },
   {
     "name": "Sen. M. Urhoghide",
+    "full_name": "Mathew A. Urhoghide",
     "phone_number": "+2348033855557",
     "email": "matthewurhoghide@yahoo.com",
+    "district": "Edo South",
     "state": "Edo"
   },
   {
     "name": "Sen. A. Adeyeye",
+    "full_name": "Prince Dayo Adeyeye",
     "phone_number": "+2348023051100",
     "email": "dadeyeye34@gmail.com",
+    "district": "Ekiti South",
     "state": "Ekiti"
   },
   {
     "name": "Sen. O. Adetumbi",
+    "full_name": "Olubunmi Adetunmbi",
     "phone_number": "+2348064487689",
     "email": "senator.adetunmbi@gmail.com",
+    "district": "Ekiti North",
     "state": "Ekiti"
   },
   {
     "name": "Sen. M. Bamidele",
+    "full_name": "Michael Opeyemi Bamidele",
     "phone_number": "+23480911112",
     "email": "amicusng@gmail.com",
+    "district": "Ekiti Central",
     "state": "Ekiti"
   },
   {
     "name": " Sen. C. Nnamani",
+    "full_name": "Chimaroke Nnamani",
     "phone_number": "+2348022255522",
     "email": "ebeanoglobal875@gmail.com ",
+    "district": "Enugu East",
     "state": "Enugu"
   },
   {
     "name": "Sen. Ikweremadu",
+    "full_name": "Ike Ekweremadu",
     "phone_number": "+2348075757000",
     "email": "ikeekweremadu@yahoo.com",
+    "district": "Enugu West",
     "state": "Enugu"
   },
   {
     "name": "Sen. C. Utazi",
+    "full_name": "Chukwuka Utazi",
+    "phone_number": "+2348037226187",
     "email": "chukwuka.utazi@nass.gov.ng",
-    "state": "Enugu",
-    "phone_number": "N/A"
+    "district": "Enugu North",
+    "state": "Enugu"
+  },
+  {
+    "name": " Sen. P. Aduda",
+    "full_name": "Philip Taminu Aduda",
+    "phone_number": "+2348034509106",
+    "email": "philipaduda2@yahoo.com",
+    "district": "Federal Capital Territory",
+    "state": "Federal Capital Territory"
   },
   {
     "name": "Sen. A. Kilawangs",
+    "full_name": "Amos Bulus Kilawangs",
     "email": "amos.kilawangs@nass.gov.ng",
+    "district": "Gombe South",
     "state": "Gombe",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. D. Mohammed",
+    "full_name": "Mohammed Goje Danjuma",
     "phone_number": "+2347068686699",
     "email": "mdgoje1@gmail.com",
+    "district": "Gombe Central",
     "state": "Gombe"
   },
   {
     "name": "Sen. S. Alkali",
+    "full_name": "Saidu Ahmed Alkali",
     "phone_number": "+2348026032222",
     "email": "saidualkali905@gmail.com",
+    "district": "Gombe North",
     "state": "Gombe"
   },
   {
-    "name": "Sen. S. Egwu",
-    "phone_number": "+2348039665848",
-    "email": "drsamominyiegwu@gmail.com",
-    "state": "Ebonyi"
-  },
-  {
-    "name": "Sen. J. Ogba",
-    "phone_number": "+2348037791346",
-    "email": "onwaigboasa@yahoo.com",
-    "state": "Ebonyi"
-  },
-  {
-    "name": "Sen. M. Nnachi",
-    "phone_number": "+2348034528595",
-    "email": "michaelamannachi@gmail.com",
-    "state": "Ebonyi"
-  },
-  {
     "name": "Sen. E. Onyewuchi",
+    "full_name": "Onyewuchi Francis",
     "phone_number": "+2348032012132",
     "email": "ezeonyewuchi@gmail.com",
+    "district": "Imo East",
     "state": "Imo"
   },
   {
     "name": "Sen. R. Okorocha",
+    "full_name": "Rochas Okorocha",
+    "phone_number": "+2347067777077",
     "email": "rochas.okorocha@nass.gov.ng",
-    "state": "Imo",
-    "phone_number": "N/A"
+    "district": "Imo West",
+    "state": "Imo"
   },
   {
     "name": "Sen. B. Uwajumogu",
+    "full_name": "Ben Uwajumogu",
     "email": "benjamin.uwajumogu@nass.gov.ng",
+    "district": "Imo North",
     "state": "Imo",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. D. Sankara",
+    "full_name": "Danladi Abdullahi Sankara",
     "phone_number": "+2348037032577",
     "email": "dsankara@yahoo.co.uk",
+    "district": "Jigawa North West",
     "state": "Jigawa"
   },
   {
     "name": "Sen. S. Mohammed",
+    "full_name": "Mohammed Sabo Nakudu",
     "phone_number": "+2348022902648",
     "email": "nakudu@yahoo.com",
+    "district": "Jigawa South West",
     "state": "Jigawa"
   },
   {
     "name": "Sen. I. Hadejia",
+    "full_name": "Ibrahim Hassan Hadejia",
+    "phone_number": "+2347054177706",
     "email": "ibrahim.hadejia@nass.gov.ng",
-    "state": "Jigawa",
-    "phone_number": "N/A"
+    "district": "Jigawa North East",
+    "state": "Jigawa"
   },
   {
     "name": "Sen. S. Kwari",
+    "full_name": "Suleiman Abdu Kwari",
     "phone_number": "+2348033019005",
     "email": "suleimankwari@yahoo.com",
+    "district": "Kaduna North",
+    "state": "Kaduna"
+  },
+  {
+    "name": "Sen. U. Sani",
+    "full_name": "Uba Sani",
+    "phone_number": "+2348099111119",
+    "email": "ubasani@aol.com",
+    "district": "Kaduna Central",
     "state": "Kaduna"
   },
   {
     "name": "Sen. D. La'ah",
+    "full_name": "Danjuma Laah",
     "phone_number": "+2348118887772",
     "email": "laah.danjuma@yahoo.com",
+    "district": "Kaduna South",
     "state": "Kaduna"
   },
   {
     "name": "Sen. K. Gaya",
+    "full_name": "Kabiru Ibrahim Gaya",
     "email": "kabiru.gaya@nass.gov.ng",
+    "district": "Kano South",
     "state": "Kano",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. I. Jibrin",
+    "full_name": "Ibrahim Barau Jibrin",
     "email": "ibrahim.jibrin@nass.gov.ng",
+    "district": "Kano North",
     "state": "Kano",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. I. Shekarau",
+    "full_name": "Ibrahim Shekarau",
     "phone_number": "+2348099199111",
     "email": "ishekarau55@yahoo.com",
+    "district": "Kano Central",
     "state": "Kano"
   },
   {
     "name": "Sen. A. Babba-Kaita",
+    "full_name": "Ahmed Babba Kaita",
     "email": "ahmad.babba@nass.gov.ng",
+    "district": "Katsina North",
     "state": "Katsina",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. B. Mandiya",
+    "full_name": "Bello Mandiya",
     "email": "bellom2001@yahoo.com",
+    "district": "Katsina South",
     "state": "Katsina",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. K. Barkiya",
+    "full_name": "Kabir Barkiya",
     "phone_number": "+2348138360742",
     "email": "barkamazadu00@yahoo.com",
+    "district": "Katsina Central",
     "state": "Katsina"
   },
   {
     "name": "Sen. M. Aliero",
+    "full_name": "Muhammad Adamu Aliero",
     "phone_number": "+2347066847000",
     "email": "senatoraliero@yahoo.com",
+    "district": "Kebbi Central",
     "state": "Kebbi"
   },
   {
     "name": "Sen. Y. Abdullahi",
+    "full_name": "Yahaya Abdullahi",
     "email": "yahaya.abdullahi@nass.gov.ng",
+    "district": "Kebbi North",
     "state": "Kebbi",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. B. Na'Allah",
+    "full_name": "Bala Ibn Na'Allah",
+    "phone_number": "+2348039639999",
     "email": "bala.naallah@nass.gov.ng",
-    "state": "Kebbi",
-    "phone_number": "N/A"
+    "district": "Kebbi South",
+    "state": "Kebbi"
   },
   {
     "name": "Sen. J. Isah",
+    "full_name": "Isah Jibrin",
     "phone_number": "+2348185651909",
     "email": "isahj@ymail.com",
+    "district": "Kogi East",
     "state": "Kogi"
   },
   {
     "name": "Sen. O. Yakubu",
+    "full_name": "Yakubu Oseni",
     "phone_number": "+2347032642674",
     "email": "yakubu.oseni75@yahoo.com",
+    "district": "Kogi Central",
+    "state": "Kogi"
+  },
+  {
+    "name": "Sen. D. Melaye",
+    "full_name": "Dino Melaye",
+    "phone_number": "+2348111111555",
+    "email": "otunbadino1@gmail.com",
+    "district": "Kogi West",
     "state": "Kogi"
   },
   {
     "name": "Sen. A. Yisa",
+    "full_name": "Oyelola Yisa Ashiru",
     "phone_number": "+2347055221111",
     "email": "ylashiru@gmail.com",
+    "district": "Kwara South",
     "state": "Kwara"
   },
   {
     "name": "Sen. S. Umar",
+    "full_name": "Sadiq Suleiman Umah",
     "email": "sadiq.umar@nass.gov.ng",
+    "district": "Kwara North",
     "state": "Kwara",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. I. Olorigbigbe",
+    "full_name": "Ibrahim Yahaya Oloriegbe",
     "phone_number": "+2348033581695",
     "email": "oloridoc@yahoo.com",
+    "district": "Kwara Central",
     "state": "Kwara"
   },
   {
     "name": "Sen. Oluremi Tinubu",
+    "full_name": "Oluremi Shade Tinubu",
     "phone_number": "+2348095300251",
     "email": "info@oluremitinubu.com",
+    "district": "Lagos Central",
     "state": "Lagos"
   },
   {
     "name": "Sen. S. Osinowo",
+    "full_name": "Osinowo Sikiru Adebayo",
     "phone_number": "+2348033049369",
     "email": "bayoosinowo@gmail.com",
+    "district": "Lagos East",
     "state": "Lagos"
   },
   {
     "name": "Sen. S. Adeola",
+    "full_name": "Adeola Solomon Olamilekan",
     "phone_number": "+2348074000040",
     "email": "adeolaolamilekan2005@yahoo.com",
+    "district": "Lagos West",
     "state": "Lagos"
   },
   {
     "name": "Sen. A. Adamu",
+    "full_name": "Abdullahi Adamu",
+    "phone_number": "+2348065186557",
     "email": "abdullahi.adamu@nass.gov.ng",
-    "state": "Nasarawa",
-    "phone_number": "N/A"
+    "district": "Nasarawa West",
+    "state": "Nasarawa"
   },
   {
     "name": "Sen. G. Awkashiki",
+    "full_name": "Godiya Akwashiki",
     "phone_number": "+2348099321703",
     "email": "godiyaakwashiki123@gmail.com",
+    "district": "Nasarawa North",
     "state": "Nasarawa"
   },
   {
     "name": "Sen. U. Almakura",
+    "full_name": "Tanko Al-Makura",
     "phone_number": "+2348077253989",
     "email": "tankoalmakura@yahoo.co.uk",
+    "district": "Nasarawa South",
     "state": "Nasarawa"
   },
   {
     "name": "Sen. Aliyu Abdullahi",
+    "full_name": "Aliyu Shabi Abdullah",
     "phone_number": "+2348052046555",
     "email": "draliyuabdullahii@gmail.com",
+    "district": "Niger North",
     "state": "Niger"
   },
   {
     "name": "Sen. M. Bima",
+    "full_name": "Mohammed Bima",
     "phone_number": "+2348173479797",
     "email": "sangibima@gmail.com",
+    "district": "Niger South",
     "state": "Niger"
   },
   {
     "name": "Sen. M. Musa",
+    "full_name": "Mohammed Sani Musa",
     "phone_number": "+2348033114615",
     "email": "Sani_313@hotmail.com",
+    "district": "Niger East",
     "state": "Niger"
   },
   {
     "name": "Sen. R. Mustapha",
+    "full_name": "Lekan Mustapha",
     "phone_number": "+2348033047403",
     "email": "adeoshy@gmail.com",
+    "district": "Ogun East",
     "state": "Ogun"
   },
   {
     "name": "Sen. I. Amosun",
+    "full_name": "Ibikunle Amosun",
     "phone_number": "+2348033213993",
     "email": "amks2@yahoo.com",
+    "district": "Ogun Central",
     "state": "Ogun"
   },
   {
     "name": "Sen. T. Odebiyi",
+    "full_name": "Tolu Odebiyi",
     "phone_number": "+2348036058080",
     "email": "toluodebiyi@gmail.com",
+    "district": "Ogun West",
     "state": "Ogun"
   },
   {
     "name": "Sen. A. Akinyelure",
+    "full_name": "Ayo Akinyelure",
     "phone_number": "+2348091707000",
     "email": "akinyelure1@yahoo.com",
+    "district": "Ondo Central",
     "state": "Ondo"
   },
   {
     "name": "Sen. N. Tofowomo",
+    "full_name": "Tofowomo Nicholas Olubukola",
     "phone_number": "+2348054546666",
     "email": "tofowomo_1960@yahoo.com",
+    "district": "Ondo South",
     "state": "Ondo"
   },
   {
     "name": "Sen. R. Boroffice",
+    "full_name": "Robert Ajayi Boroffice",
     "phone_number": "+2348176406557",
     "email": "rboroffice@yahoo.com",
+    "district": "Ondo North",
     "state": "Ondo"
   },
   {
     "name": "Sen. S. Basiru",
+    "full_name": "Surajudeen Ajibola Basiru",
     "phone_number": "+2348034753343",
     "email": "ajibolabasiru@hotmail.com",
+    "district": "Osun Central",
     "state": "Osun"
   },
   {
     "name": "Sen. F. Fadahunsi",
+    "full_name": "Francis Fadahunsi",
     "phone_number": "+2348052242211",
     "email": "adefadahunsi19@gmail.com",
+    "district": "Osun East",
     "state": "Osun"
   },
   {
     "name": "Sen. A. Oriolowo",
+    "full_name": "Adelere Oriolowo",
     "phone_number": "+2348033565979",
     "email": "yemlee12@gmail.com",
+    "district": "Osun West",
     "state": "Osun"
   },
   {
     "name": "Sen. T. Folarin",
+    "full_name": "Teslim Kolawale Folarin",
     "phone_number": "+2348033160587",
     "email": "teslimkfolarin@yahoo.com",
+    "district": "Oyo Central",
     "state": "Oyo"
   },
   {
     "name": "Sen. B. Omotayo",
+    "full_name": "Buhari Abdulfatai Omotayo",
     "phone_number": "+2348037053375",
     "email": "rabab1004@yahoo.com",
+    "district": "Oyo North",
     "state": "Oyo"
   },
   {
     "name": "Sen. A. Balogun",
+    "full_name": "Ademola Kola Balogun",
     "phone_number": "+2348132956057",
     "email": "kbalogun7707@gmail.com",
+    "district": "Oyo South",
     "state": "Oyo"
   },
   {
     "name": "Senator I. Longjan",
+    "full_name": "Ignatius Datong Longjan",
     "phone_number": "+2347044442045",
     "email": "talk2longjan@gmail.com",
+    "district": "Plateau South",
     "state": "Plateau"
   },
   {
     "name": "Sen. H. Dimka",
+    "full_name": "Hezekiah Ayuba Dimka",
     "phone_number": "+2348033359443",
     "email": "dewansamson4@gmail.com",
+    "district": "Plateau Central",
     "state": "Plateau"
   },
   {
     "name": "Sen. I. Gyang",
+    "full_name": "Istifanus Dung Gyang",
     "phone_number": "+2348097777712",
     "email": "dridgyang@gmail.com",
+    "district": "Plateau North",
     "state": "Plateau"
   },
   {
     "name": "Sen. B. Apiafi",
+    "full_name": "Betty Apiafi",
     "email": "betty.apiafi@nass.gov.ng",
+    "district": "Rivers West",
     "state": "Rivers",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. G. Sekibo",
+    "full_name": "George Thompson Sekibo",
     "email": "george.sekibo@nass.gov.ng",
+    "district": "Rivers East",
     "state": "Rivers",
     "phone_number": "N/A"
   },
   {
     "name": "Sen. B. Mpigi",
+    "full_name": "Barinada Barry Mpigi",
     "phone_number": "+2348037419000",
     "email": "mpigib@yahoo.com",
+    "district": "Rivers South East",
     "state": "Rivers"
+  },
+  {
+    "name": "Sen. A. Gobir",
+    "full_name": "Abdullahi Gobir",
+    "email": "abdullahi.gobir@nass.gov.ng",
+    "district": "Sokoto East",
+    "state": "Sokoto",
+    "phone_number": "N/A"
+  },
+  {
+    "name": "Sen. A. Tambuwal",
+    "full_name": "Abubakar Shehu Tambuwal",
+    "phone_number": "+2347069619523",
+    "email": "abubakarshehu5225@gmail.com",
+    "district": "Sokoto South",
+    "state": "Sokoto"
+  },
+  {
+    "name": "Sen. A. Wamakko",
+    "full_name": "Aliyu Magatakarda Wamakko",
+    "phone_number": "+2347033181818",
+    "email": "amwamakko@yahoo.com",
+    "district": "Sokoto North",
+    "state": "Sokoto"
+  },
+  {
+    "name": "Sen. E. Bwacha",
+    "full_name": "Emmanuel Bwacha",
+    "phone_number": "+2347063795588",
+    "email": "info@senatorbwacha.com",
+    "district": "Taraba South",
+    "state": "Taraba"
+  },
+  {
+    "name": "Sen. Shuaibu Isa Lau\t",
+    "full_name": "Shuaibu Isa Lau",
+    "email": "shuaibu.lau@nass.gov.ng",
+    "district": "Taraba North",
+    "state": "Taraba",
+    "phone_number": "N/A"
+  },
+  {
+    "name": "Sen. Y. Yusuf",
+    "full_name": "Yusuf Abubakar Yusuf",
+    "phone_number": "+2348033109493",
+    "email": "yusufawakili@gmail.com",
+    "district": "Taraba Central",
+    "state": "Taraba"
+  },
+  {
+    "name": "Sen. A. Lawan",
+    "full_name": "Ahmad Ibrahim Lawan",
+    "phone_number": "+2347055090323",
+    "district": "Yobe North",
+    "state": "Yobe"
+  },
+  {
+    "name": "Sen. I. Gaidam",
+    "full_name": "Ibrahim Gaidam",
+    "phone_number": "+2348036591699",
+    "email": "ibrahim.gaidam@nass.gov.ng",
+    "district": "Yobe East",
+    "state": "Yobe"
+  },
+  {
+    "name": "Sen. I. Bomai",
+    "full_name": "Ibrahim Mohammed Bomai",
+    "email": "ibrahim.bomami@nass.gov.ng",
+    "district": "Yobe South",
+    "state": "Yobe",
+    "phone_number": "N/A"
+  },
+  {
+    "name": "Sen. A. Yari",
+    "full_name": "Abdul'aziz Abubakar Yari",
+    "phone_number": "+2348033412454",
+    "email": "yariabdulazeez@gmail.com",
+    "district": "Zamfara West",
+    "state": "Zamfara"
+  },
+  {
+    "name": "Sen. H. Gusau",
+    "full_name": "Hassan Mohammed Gusau",
+    "email": "hassan.gusau@nass.gov.ng",
+    "district": "Zamfara Central",
+    "state": "Zamfara",
+    "phone_number": "N/A"
+  },
+  {
+    "name": "Sen. K. Tijjani",
+    "full_name": "Kaura Yahaya Tijjani",
+    "phone_number": "+2348186567173",
+    "email": "tykaura@yahoo.com",
+    "district": "Zamfara North",
+    "state": "Zamfara"
   }
 ]

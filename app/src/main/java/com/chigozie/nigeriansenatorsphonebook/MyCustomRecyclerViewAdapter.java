@@ -52,14 +52,18 @@ public class MyCustomRecyclerViewAdapter extends RecyclerView.Adapter<MyCustomRe
         TextView email = view.findViewById(R.id.email);
         TextView phone = view.findViewById(R.id.phone);
         TextView state = view.findViewById(R.id.state);
+        TextView district = view.findViewById(R.id.district);
 
         final String nameText = cursor.getString(1);
-        final String phoneNumber = cursor.getString(3);
-        final String emailAddress = cursor.getString(2);
+        final String emailAddress = cursor.getString(3);
+        final String phoneNumber = cursor.getString(4);
+        final String stateText = cursor.getString(5);
+        final String districtText = cursor.getString(6) + " Senatorial District";
         name.setText(nameText);
         email.setText(emailAddress);
         phone.setText(phoneNumber);
-        state.setText(cursor.getString(4));
+        state.setText(stateText);
+        district.setText(districtText);
 
         ImageView emailIcon = view.findViewById(R.id.emailIcon);
         ImageView callIcon = view.findViewById(R.id.callIcon);
