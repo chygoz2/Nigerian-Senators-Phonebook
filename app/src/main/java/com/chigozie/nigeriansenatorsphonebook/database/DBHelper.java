@@ -136,7 +136,7 @@ public class DBHelper extends SQLiteOpenHelper {
                 "or phone_number like ? " +
                 "or full_name like ? " +
                 "or district like ? " +
-                "order by name asc";
+                "order by state asc";
         searchTerm = "%"+searchTerm.trim()+"%";
         Cursor cursor = db.rawQuery(sql, new String[]{ searchTerm, searchTerm, searchTerm, searchTerm, searchTerm, searchTerm});
         return cursor;
